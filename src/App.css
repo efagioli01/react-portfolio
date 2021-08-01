@@ -1,0 +1,299 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Spartan', sans-serif;
+  
+
+}
+
+.home,
+.about,
+.aboutme,
+.works,
+.contact,
+.contactme {
+  display: flex;
+  height: 90vh;
+  align-items: center;
+  justify-content: center;
+  font-size: 3rem;
+
+}
+
+
+.container{
+  background-image: url(./images/codingbackdrop.jpg);
+}
+
+.about {
+  background-image: url('./images/codingbackdrop.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 100px;
+}
+
+h1{
+  font-size: 85px;
+  margin-bottom: 50px;
+  text-align: center;
+  color: palevioletred;
+  text-shadow: 2px 2px 5px white;
+
+}
+.aboutme {
+  background-image: url('./images/codingbackdrop.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: palevioletred;
+  font-size: 20px;
+}
+
+.design{
+  background-image: url('./images/codingbackdrop.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  
+}
+
+
+.contactme {
+  background-image: url('./images/codingbackdrop.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 20px;
+
+}
+
+.works {
+  background-image: url('./images/codingbackdrop.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 100px;
+}
+
+.contact {
+  background-image: url('./images/codingbackdrop.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 40px;
+  text-align: center;
+  text-shadow: 3px 3px 5px palevioletred;
+}
+
+.list{
+list-style: none;
+letter-spacing: 1.5px;
+margin-left: 50px;
+color: palevioletred;
+}
+
+.lists{
+list-style: none;
+letter-spacing: 1.5px;
+margin-left: 50px;
+color: white;
+}
+
+.drop{
+  display: flex;
+  line-height: 500px;
+  flex-direction: row;
+  justify-content:space-around;
+}
+
+#profile{
+  margin-right: 50px;
+  border-radius: 30%;
+}
+
+.text{
+  color: white;
+  
+}
+
+.fas{
+  color: #fff;
+}
+
+#projects{
+width: 100%;
+  
+}
+
+.card {
+  color: palevioletred;
+  font-size: 22px;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content:space-between;
+  align-items: center;
+  
+  
+}
+
+.card2 {
+  color: palevioletred;
+  font-size: 22px;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 40%;
+  float: right;
+  display: flex;
+  flex-direction: column;
+  justify-content:space-between;
+  align-items: center;
+}
+
+.card3 {
+  color: palevioletred;
+  font-size: 22px;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 40%;
+ margin-right: 60px;
+ display: flex;
+  flex-direction: column;
+  justify-content:space-between;
+ align-items: center;
+}
+
+.card4 {
+  color: palevioletred;
+  font-size: 22px;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 40%;
+ margin-right: 80px;
+ display: flex;
+  flex-direction: column;
+  justify-content:space-between;
+ align-items: center;
+}
+
+.card5 {
+  color: palevioletred;
+  font-size: 22px;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 40%;
+ float: right;
+ display: flex;
+  flex-direction: column;
+  justify-content:space-between;
+ align-items: center;
+}
+
+.style{
+  color: #fff;
+}
+
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.container {
+  padding: 2px 16px;
+}
+
+
+@media screen and (max-width: 960px) {
+  .aboutme {
+    font-size: 20px;
+    margin-top: -150px;
+  }
+}
+
+@media screen and (max-width: 960px) {
+  h3  {
+    font-size: 10px;
+  }
+}
+
+@media screen and (max-width: 960px) {
+  h1  {
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 960px) {
+  #profile  {
+    width: 50%;
+  }
+}
+
+
+@media screen and (max-width: 960px) {
+  .drop {
+    display: flex;
+    flex-direction: column;
+    font-size: 10px;
+    line-height: 100px;
+   
+  }
+}
+
+@media screen and (max-width: 960px) {
+  .style{
+    font-size: 10px;
+  }
+}
+
+@media screen and (max-width: 960px) {
+  .card  {
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 960px) {
+  .card2  {
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 960px) {
+  .card3  {
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 960px) {
+  .card4  {
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 960px) {
+  .card5 {
+    font-size: 12px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
