@@ -21,10 +21,10 @@ I have created a fully responsive portfoilo website using REACT that showcases t
 
 
 ## Screenshot 
- ![screenshot](../../images/portpic.PNG)
- ![screenshot](../../images/portpictwo.PNG)
- ![screenshot](../../images/portpicthree.PNG)
- ![screenshot](../../images/portpicfour.PNG)
+ ![screenshot](./src/images/portpic.PNG)
+ ![screenshot](./src/images/portpictwo.PNG)
+ ![screenshot](./src/images/portpicthree.PNG)
+ ![screenshot](./src/images/portpicfour.PNG)
 
 
 
