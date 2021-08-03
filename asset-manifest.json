@@ -1,23 +1,31 @@
 {
   "files": {
-    "main.css": "/static/css/main.a617e044.chunk.css",
-    "main.js": "/static/js/main.f24a4688.chunk.js",
-    "main.js.map": "/static/js/main.f24a4688.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.ca8a95aa.js",
-    "runtime-main.js.map": "/static/js/runtime-main.ca8a95aa.js.map",
-    "static/js/2.bbe6fa78.chunk.js": "/static/js/2.bbe6fa78.chunk.js",
-    "static/js/2.bbe6fa78.chunk.js.map": "/static/js/2.bbe6fa78.chunk.js.map",
-    "static/js/3.52b6033b.chunk.js": "/static/js/3.52b6033b.chunk.js",
-    "static/js/3.52b6033b.chunk.js.map": "/static/js/3.52b6033b.chunk.js.map",
+    "main.css": "/static/css/main.df31fcae.chunk.css",
+    "main.js": "/static/js/main.bf4550ed.chunk.js",
+    "main.js.map": "/static/js/main.bf4550ed.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.3f633070.js",
+    "runtime-main.js.map": "/static/js/runtime-main.3f633070.js.map",
+    "static/js/2.65931e0b.chunk.js": "/static/js/2.65931e0b.chunk.js",
+    "static/js/2.65931e0b.chunk.js.map": "/static/js/2.65931e0b.chunk.js.map",
+    "static/js/3.45df9a67.chunk.js": "/static/js/3.45df9a67.chunk.js",
+    "static/js/3.45df9a67.chunk.js.map": "/static/js/3.45df9a67.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.a617e044.chunk.css.map": "/static/css/main.a617e044.chunk.css.map",
-    "static/js/2.bbe6fa78.chunk.js.LICENSE.txt": "/static/js/2.bbe6fa78.chunk.js.LICENSE.txt",
-    "static/media/logo.6ce24c58.svg": "/static/media/logo.6ce24c58.svg"
+    "static/css/main.df31fcae.chunk.css.map": "/static/css/main.df31fcae.chunk.css.map",
+    "static/js/2.65931e0b.chunk.js.LICENSE.txt": "/static/js/2.65931e0b.chunk.js.LICENSE.txt",
+    "static/media/Footer.css": "/static/media/codingbackdrop.0ed8da84.jpg",
+    "static/media/ericaresume.08c2e2d1.pdf": "/static/media/ericaresume.08c2e2d1.pdf",
+    "static/media/findmefood.75bd00d5.PNG": "/static/media/findmefood.75bd00d5.PNG",
+    "static/media/fitness.3af01083.PNG": "/static/media/fitness.3af01083.PNG",
+    "static/media/mask.f751e9ce.PNG": "/static/media/mask.f751e9ce.PNG",
+    "static/media/profileresize.af3e3bdd.PNG": "/static/media/profileresize.af3e3bdd.PNG",
+    "static/media/tech.7ffef7e7.PNG": "/static/media/tech.7ffef7e7.PNG",
+    "static/media/weather.cc66b5f4.PNG": "/static/media/weather.cc66b5f4.PNG",
+    "static/media/workday.f4b01e00.PNG": "/static/media/workday.f4b01e00.PNG"
   },
   "entrypoints": [
-    "static/js/runtime-main.ca8a95aa.js",
-    "static/js/2.bbe6fa78.chunk.js",
-    "static/css/main.a617e044.chunk.css",
-    "static/js/main.f24a4688.chunk.js"
+    "static/js/runtime-main.3f633070.js",
+    "static/js/2.65931e0b.chunk.js",
+    "static/css/main.df31fcae.chunk.css",
+    "static/js/main.bf4550ed.chunk.js"
   ]
 }
