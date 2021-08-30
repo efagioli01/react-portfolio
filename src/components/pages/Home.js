@@ -1,16 +1,30 @@
 import React from 'react';
-import '../../App.css';
-// import Cards from '../Cards';
-import HeroSection from '../HeroSection';
-import Footer from '../Footer';
+// import '../../App.css';
+import { Button } from '../Button'
+import '../../HeroSection.css'
 
 function Home() {
   return (
-    <>
-      <HeroSection />
-      {/* <Cards /> */}
-      <Footer />
-    </>
+    <div className='hero-container'>
+       
+      <h1>Hello, I'm Erica!</h1>
+      <p>Full Stack developer based out of Fort Myers, FL </p>
+      <p>who enjoys creating dynamic websites and applications. </p>
+     
+      <div className='hero-btns'>
+        <Button
+        
+          className='btns'
+          buttonStyle='btn--outline'
+          buttonSize='btn--large'
+          
+        >
+          EXPLORE!
+        </Button>
+        
+        
+      </div>
+    </div>
   );
 }
 

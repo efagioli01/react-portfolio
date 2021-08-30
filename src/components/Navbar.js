@@ -26,7 +26,7 @@ function Navbar() {
         
 
             <nav className="navbar">
-                <a id="navhome-click" href="/">Erica <span className="span">Fagioli</span></a>
+                <a id="navhome-click" href="/home">Erica <span className="span">Fagioli</span></a>
                 <div className="navbar-container">
                     <Link to="/" className="navbar-logo" onClick={closeMobileMenu}>
 
