@@ -6,11 +6,16 @@ import Home from './components/pages/Home'
 import About from './components/pages/About'
 import Contact from './components/pages/Contact'
 import Works from './components/pages/Works'
+import Footer from './components/Footer';
+
 
 
 function App() {
   return (
   <>
+  
+
+  
   <Router>
     <Navbar />
     <Switch>
@@ -19,6 +24,7 @@ function App() {
       <Route path='/works' component={Works} />
       <Route path='/contact' component={Contact} />
     </Switch>
+    <Footer />
   </Router>
   </>
   );

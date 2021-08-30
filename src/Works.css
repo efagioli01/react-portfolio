@@ -1,0 +1,485 @@
+
+.projects-head{
+  padding-bottom: 20px;
+  border-bottom: solid thin grey;
+  font-family: 'Montserrat Alternates', sans-serif;
+  position: absolute;
+color: white;
+ opacity: 0.5;
+padding-left: 20px;
+padding-right: 20px;
+}
+
+
+
+#projects{
+  display: flex;
+    justify-content:left;
+    align-items: left;
+    margin: auto;
+    width: 100%;
+}
+
+.loaderContainer {
+  background-color: #15202b;
+  height: 100vh;
+  padding: 0 510px;
+}
+
+.hideSection {
+  display: none;
+}
+
+/* #loader {
+  font-family: "Courier New", Courier, monospace;
+  width: auto;
+  text-align: center;
+  padding: 300px 0 0 0;
+  z-index: 10;
+  font-size: 3.5rem;
+  font-weight: 500;
+  color: #fff;
+ 
+}
+
+#loader-borderBottom {
+  animation: borderBottom 1.2s ease-in-out;
+} */
+
+@keyframes borderBottom {
+  0% {
+    width: 0;
+    border-bottom: 2px solid white;
+  }
+  100% {
+    width: 100%;
+    border-bottom: 2px solid white;
+  }
+}
+
+.projectTtitleName{
+  color: white;
+  border-bottom: solid thin grey;
+   opacity: 0.5;
+}
+
+.header-container,
+.section-container {
+  margin: auto;
+  width: 90%;
+  overflow: hidden;
+}
+
+.section-container {
+  min-height: 100vh;
+}
+
+@viewport {
+  width: device-width;
+  zoom: 1;
+}
+
+/****************************Header************************/
+
+header {
+  background-color: rgba(0, 0, 0, 0.08);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  color: white;
+  padding: 10px 0;
+}
+
+header a {
+  color: #ffffff;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 17px;
+  margin: 0 20px;
+  transition: all ease-in-out 100ms;
+}
+
+header .header-container #branding {
+  float: left;
+}
+
+#home-click {
+  margin: 0;
+  margin-left: 10px;
+  font-size: 25px;
+  font-style: italic;
+}
+
+#home-click a:hover {
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+header #branding #home-click span {
+  color: white;
+  font-style: italic;
+  font-weight: normal;
+}
+
+header nav {
+  display: flex;
+  float: right;
+  margin-top: 7px;
+}
+
+header nav a:hover,
+.active {
+  color: white;
+  font-weight: bold;
+  padding-top: 5px;
+  text-decoration: none;
+}
+
+/**************Section Three - Projects *******************/
+
+#projects {
+  background-image: linear-gradient(to bottom right,  rgb(180,110,58), rgb(22,53,71));
+
+}
+
+div.title h1 {
+  text-align: center;
+  font-size: 4em;
+  margin-top: 100px;
+  color: rgb(255, 255, 255);
+  color: white;
+   opacity: 0.5;
+  font-family: 'Montserrat Alternates', sans-serif;
+  padding-bottom: 5px;
+  border-bottom: 1px solid rgb(65, 65, 65);
+}
+
+.main-content {
+  border-bottom: 1px solid rgb(73, 73, 73);
+  padding: 30px 5px;
+  flex: 1 1 80%;
+  min-height: 100vh auto;
+}
+
+#buttons-menu {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+#buttons-menu button {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 0.8rem;
+  margin: 0.375rem;
+  padding: 0.7rem 1.6rem;
+  border-radius: 0.125rem;
+  border: 0;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+}
+
+
+
+.btns{
+  font-family: 'Montserrat Alternates', sans-serif;
+  padding: 8px 20px;
+  border-radius: 2px;
+  outline: none;
+  cursor: pointer;
+  color: black;
+}
+
+
+
+.btn--primary {
+  background-color: var(--primary);
+  color: black;
+  border: 1px solid var(--primary);
+}
+
+.btn--outline{
+  background-color: transparent;
+  color: white;
+  padding: 8px 20px;
+  border: 1px solid var(--primary);
+  transition: all 0.3s ease-out;
+}
+
+.btn--medium{
+  padding: 8px 20px;
+  font-size: 20px;
+}
+
+.button--large{
+  padding: 12px 26px;
+  font-size: 20px;
+}
+
+.btn--medium:hover, .btn--large:hover {
+  background: white;
+  opacity: 0.5;
+  color: black;
+  transition: all 0.3s ease-out;
+}
+
+/********Projects View********/
+
+#project-intro {
+  position: absolute;
+  left: 40%;
+  color: lightgray;
+}
+
+.row {
+  padding: 20px 0;
+}
+
+#project-name {
+  color: white;
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+#project-info {
+  color: lightgray;
+  font-size: 1.1rem;
+  font-family: 'Montserrat Alternates', sans-serif;
+  line-height: 2rem;
+  margin: 10px 0;
+}
+
+.skills {
+  margin: 10px 0;
+}
+
+.skills h2 {
+  color: lightgray;
+  font-size: 1.3rem;
+  padding: 10px 0;
+}
+
+#programming-skills {
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
+  margin-right: 5px;
+}
+
+#demo,
+#github {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 0.8rem;
+  margin: 0.375rem;
+  padding: 0.7rem 1.6rem;
+  border-radius: 0.125rem;
+  border: 0;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+}
+
+.project-item {
+  background-color: rgb(73, 75, 0);
+  padding: 200px 120px;
+
+}
+
+.food,
+.maskeraid,
+.codebr {
+  background-size: cover;
+  background-position: center;
+  background-position: top right;
+  transition: all ease-in-out 300ms;
+  position: relative;
+  -webkit-box-shadow: 0px 0px 23px 3px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 0px 23px 3px rgba(0, 0, 0, 0.2);
+  z-index: 3;
+}
+
+.food:hover,
+.maskeraid:hover,
+.codebr {
+  color: black;
+}
+
+.food::before,
+.maskeraid::before,
+.codebr::before {
+  content: "";
+  display: block;
+  background-color: black;
+  opacity: 0.6;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  transition: all ease-in-out 300ms;
+  z-index: -1;
+}
+
+.food:hover::before,
+.maskeraid:hover::before,
+.codebr:hover::before {
+  background-position: center;
+  opacity: 0.3;
+}
+
+.food {
+  background-image: url(../src//images//findmefood.PNG);
+}
+
+.maskeraid{
+  background-image: url(../src/images/mask.PNG);
+}
+
+.codebr{
+  background-image: url(../src/images/codebr.png);
+}
+
+
+
+
+
+/* Responsive */
+
+@media only screen and (max-width: 768px) {
+  .loaderContainer {
+    padding: 0 120px;
+  }
+
+  #loader {
+    padding: 300px 0 0 0;
+    font-size: 3.5rem;
+    font-weight: 500;
+  }
+
+
+  #branding {
+    display: block;
+    width: 90%;
+  }
+
+  #home-click {
+    text-align: center;
+  }
+
+  .main-content {
+    height: auto;
+    width: auto;
+    margin: 0;
+  }
+
+  div.title h1 {
+    font-size: 3rem;
+    margin-top: 18%;
+  }
+
+ 
+  .food,
+  .clickly-game {
+    background-position: 50%;
+    background-repeat: no-repeat;
+  }
+
+  .food {
+    background-position: 50%;
+    background-repeat: no-repeat;
+  }
+
+
+  .codebr {
+    background-position: 50%;
+    background-size: 170% 100%;
+    background-repeat: no-repeat;
+  }
+
+  .food::before,
+  .maskeraid::before,
+  .codebr::before {
+    opacity: 0.1;
+  }
+}
+
+@media only screen and (max-width: 640px) {
+  .loaderContainer {
+    padding: 0 40px;
+  }
+
+  #loader {
+    padding: 180px 0 0 0;
+    font-size: 2.1rem;
+    font-weight: 500;
+  }
+
+  .main-content {
+    max-height: auto;
+  }
+
+
+  #branding {
+    display: block;
+    width: 100%;
+    float: left;
+  }
+
+  #home-click {
+    text-align: center;
+  }
+
+  .section-container {
+    margin: 0 auto;
+  }
+
+  .main-content {
+    height: auto;
+    width: auto;
+    margin: 0;
+  }
+
+  div.title h1 {
+    font-size: 3rem;
+    margin-top: 35%;
+  }
+
+  #buttons-menu button {
+    margin: 0.275rem;
+    padding: 0.7rem 1.2rem;
+  }
+
+
+  .food,
+  .clickly-game {
+    background-position: 50%;
+    background-repeat: no-repeat;
+  }
+
+  .food {
+    background-position: 50%;
+    background-repeat: no-repeat;
+  }
+
+
+  .codebr {
+    background-position: 50%;
+    background-size: 160% 100%;
+    background-repeat: no-repeat;
+  }
+
+  .food::before,
+  .maskeraid::before,
+  .codebr::before {
+    opacity: 0.1;
+  }
+
+  footer div.footerContainer {
+    display: flex;
+    text-align: center;
+    flex-direction: column-reverse;
+  }
+}

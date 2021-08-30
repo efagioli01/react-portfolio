@@ -7,7 +7,9 @@ function HeroSection() {
   return (
     <div className='hero-container'>
        
-      <h1>ERICA FAGIOLI</h1>
+      <h1>Hello, I'm Erica!</h1>
+      <p>Full Stack developer based out of Fort Myers, FL </p>
+      <p>who enjoys creating dynamic websites and applications. </p>
      
       <div className='hero-btns'>
         <Button
@@ -17,7 +19,7 @@ function HeroSection() {
           buttonSize='btn--large'
           
         >
-          EXPLORE MY WORK
+          EXPLORE!
         </Button>
         
         

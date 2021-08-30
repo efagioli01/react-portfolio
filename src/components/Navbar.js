@@ -17,27 +17,29 @@ function Navbar() {
     };
 
     useEffect(() => {
-            showButton();
-        
+        showButton();
+
     }, []);
 
     window.addEventListener('resize', showButton);
     return (
-        <>
+        
+
             <nav className="navbar">
-                <div className="navbar-containere">
+                <a id="navhome-click" href="/">Erica <span className="span">Fagioli</span></a>
+                <div className="navbar-container">
                     <Link to="/" className="navbar-logo" onClick={closeMobileMenu}>
-                       
+
                     </Link>
                     <div className='menu-icon' onClick={handleClick}>
                         <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
                     </div>
                     <ul className={click ? 'nav-menu active' : 'nav-menu'}>
-                        <li className='nav-item'>
+                        {/* <li className='nav-item'>
                             <Link to='/' className='nav-links' onClick={closeMobileMenu}>
                                 HOME
                             </Link>
-                        </li>
+                        </li> */}
                         <li className='nav-item'>
                             <Link to='/works' className='nav-links' onClick={closeMobileMenu}>
                                 WORKS
@@ -45,7 +47,7 @@ function Navbar() {
                         </li>
                         <li className='nav-item'>
                             <Link to='/about' className='nav-links' onClick={closeMobileMenu}>
-                                ABOUT
+                                ABOUT ME
                             </Link>
                         </li>
                         <li className='nav-item'>
@@ -54,11 +56,11 @@ function Navbar() {
                             </Link>
                         </li>
                     </ul>
-                    
+
 
                 </div>
             </nav>
-        </>
+        
     );
 }
 

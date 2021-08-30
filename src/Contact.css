@@ -1,0 +1,76 @@
+
+.contact{
+    display: flex;
+    height: 90vh;
+    justify-content: center;
+    font-size: 2rem;
+    background-image: linear-gradient(to bottom right,  rgb(180,110,58), rgb(22,53,71))
+}
+
+
+.contactheader{
+    font-size: 20px;
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+
+.contacthead{
+  padding-bottom: 20px;
+    border-bottom: solid thin grey;
+    font-family: 'Montserrat Alternates', sans-serif;
+    position: absolute;
+  color: white;
+   opacity: 0.5;
+  padding-left: 20px;
+  padding-right: 20px;
+
+}
+
+.resume{
+    color: white;
+}
+
+
+.fa{
+    padding-left: 20px;
+    font-size: 30px;
+    
+}
+
+
+.card {
+    display: flex;
+    justify-content:center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    width: 500px;
+    height: 400px;
+    margin: auto;
+    text-align: center;
+    display:inline-block;
+
+  }
+  
+  .title {
+    color: black;
+    font-size: 26px;
+    font-weight: bold;
+  }
+  
+  
+  a {
+    font-family: 'Montserrat Alternates', sans-serif;
+    text-decoration: none;
+    font-size: 22px;
+    color: white;
+  }
+
+  .fa{
+      color: black;
+  }
+
+  p{
+      color: black;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  

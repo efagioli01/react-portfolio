@@ -1,82 +1,61 @@
 import React from 'react';
 import './Footer.css';
-import { Button } from './Button';
 import { Link } from 'react-router-dom';
+import resume from './resume/ericaresume.pdf'
 
 function Footer() {
   return (
-    <div className='footer-container'>
-      <section className='footer-subscription'>
-        <p className='footer-subscription-heading'>
-          EMAIL ME
-        </p>
-        <p className='footer-subscription-text'>
-          LETS CONNECT
-        </p>
-        <div className='input-areas'>
-          <form>
-            <input
-              className='footer-input'
-              name='email'
-              type='email'
-              placeholder='Your Email'
-            />
-            <Button buttonStyle='btn--outline'>SEND</Button>
-          </form>
-        </div>
-      </section>
-      <div class='footer-links'>
-        <div className='footer-link-wrapper'>
 
-          <div class='footer-link-items'>
-            <h2>Contact</h2>
-            <Link to='/contact'>Contact</Link>
-          </div>
-        </div>
-        <div className='footer-link-wrapper'>
+    <div className='footer'>
+      <h4 className="heading4">ERICA FAGIOLI © 2021</h4>
+      <div className='footer-container'>
 
-          <div class='footer-link-items'>
-            <h2>Social Media</h2>
+        <Link
+          className='social-icon-link linkedin'
+          to='/'
+          target='_blank'
+          aria-label='LinkedIn'
+        >
+          <a href="https://www.linkedin.com/in/erica-fagioli-00535216a/"><i class='fab fa-linkedin' /></a>
 
-            <a href="https://www.linkedin.com/in/erica-fagioli-00535216a/">linkedin</a>
-            <a href="https://github.com/efagioli01">Github </a>
-          </div>
-        </div>
+        </Link>
+
+
+        <Link
+          className='social-icon-link github'
+          to='/'
+          target='_blank'
+          aria-label='Github'
+        >
+          <a href="https://github.com/efagioli01"><i class='fab fa-github' /></a>
+
+        </Link>
+
+        <Link
+          className='social-icon-link Email'
+          to='/'
+          target='_blank'
+          aria-label='Email'
+        >
+          <a href="mailto:efagioli01@gmail.com"><i class='fas fa-envelope-square' /></a>
+
+        </Link>
+
+        <Link
+          className='social-icon-link Resume'
+          to='/'
+          target='_blank'
+          aria-label='Resume'
+        >
+          <a href={resume} download><i class="far fa-file"></i></a>
+
+        </Link>
+
+
       </div>
-      <section class='social-media'>
-        <div class='social-media-wrap'>
-          <div class='footer-logo'>
-            <Link to='/' className='social-logo'>
-              
-              
-            </Link>
-          </div>
-          <small class='website-rights'>ERICA FAGIOLI © 2021</small>
-          <div class='social-icons'>
 
-
-            <Link
-              class='social-icon-link linkedin'
-              to='/'
-              target='_blank'
-              aria-label='LinkedIn'
-            >
-              <a href="https://www.linkedin.com/in/erica-fagioli-00535216a/"><i class='fab fa-linkedin' /></a>
-
-            </Link>
-            <Link
-              class='social-icon-link github'
-              to='/'
-              target='_blank'
-              aria-label='Github'
-            >
-              <a href="https://github.com/efagioli01"><i class='fab fa-github'/></a>
-
-            </Link>
-          </div>
-        </div>
-      </section>
     </div>
+
   );
 }
 

@@ -1,31 +1,42 @@
 import React from 'react';
-import '../../App.css';
+import '../../Contact.css';
+import profile from '../../images/profileresize.PNG'
 import resume from '../resume/ericaresume.pdf';
 
 export default function Contact() {
-    
+
     return (
-       
-        <div className="contact">
-            <div className="row">
-                <div className="col-sm-9">
-                    <h1 >CONTACT ME </h1>
-                    <ul class="drop">
-                        <li class='list'><i class="fas fa-envelope-square"></i><a class='text' href="mailto:efagioli01@gmail.com">Email</a></li>
-                        <li class='list'><i class="fas fa-phone"></i><a class='text' href="tel:6173208514">Telephone</a></li>
-                        <li class='list'><i class='fab fa-github'></i><a class='text' href="https://github.com/efagioli01">Github </a></li>
-                        <li class='list'><i class='fab fa-linkedin'/><a class='text' href="https://www.linkedin.com/in/erica-fagioli-00535216a/">linkedin</a></li>
-                        <a class='lists' href={resume} download>Resume</a>
-                       
-                    
-                    </ul>
-
+        <>
+            <div className='contact'>
+                <h1 className='contacthead'>Let's start something great.</h1>
+                <div className="card">
+                    <p>Have a question?
+                        Let's get to know each other. How can I be useful to your service?
+                        Please feel free to reach out to me. I would be delighted to answer all your questions or concerns</p>
+                    <br></br>
+                    <br></br>
+                    <br></br>
+                    <br></br>
+                    <p>University of New Hampshire</p>
                 </div>
-                <div className="col-sm-3">
 
+                <div className="card">
+                    <h1 className='contactheader'>Feel free to call, email, or connect with me on linkedin!</h1>
+                    <br></br>
+                    <p>Take a look at my <a className='resume' href={resume} download>Resume</a></p>
+                    <br></br>
+                    <p><a href="tel:6173208514">617-320-8514</a></p>
+                    <br></br>
+                    <p><a href="mailto:efagioli01@gmail.com">efagioli01@gmail.com</a></p>
+                    <br></br>
+                    <a href="#"><i className="fa fa-github"></i></a>
+                    <a href="#"><i className="fa fa-linkedin"></i></a>
                 </div>
             </div>
-        </div>
+        </>
+
+
+
 
     )
 }
