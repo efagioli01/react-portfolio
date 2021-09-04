@@ -8,8 +8,8 @@ function Home() {
     <div className='hero-container'>
        
       <h1>Hello, I'm Erica!</h1>
-      <p>Full Stack developer based out of Fort Myers, FL </p>
-      <p>who enjoys creating dynamic websites and applications. </p>
+      <p>Full Stack Web Developer working remotely out of Fort Myers, FL! </p>
+      {/* <p>who has a passion for creating dynamic websites and applications. </p> */}
      
       <div className='hero-btns'>
         <Button

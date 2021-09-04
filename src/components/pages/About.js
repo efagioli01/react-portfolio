@@ -31,14 +31,13 @@ export default function About() {
 
                 <img id="profile" src={profile} />
 
-                I am a full stack web development student at University of New Hampshire. Set to graduate in the coming months, I am eager to secure challenging roles in world of web development.
-                My studies have provided me with broad proficiency in the use of coding methods, tools, software packages and techniques. Alongside this, I have been able to develop strong time management skills while studying and completing projects while working my full time management job. As such, I am confident that I can make an instant impact in web development roles.
-                I am eager to learn about potential career opportunities, so I would be pleased to chat about job openings in the web development sphere. My key skills include: HTML5, CSS, JavaScript, jQuery, Bootstrap, React, MERN.
+
+                Exceptionally creative and dependable Web Developer with a stellar customer service record and superb work ethic. Deeply knowledgeable in a wide variety of computer languages, user interface, and debugging processes as well as the principles and techniques of website construction and maintenance. Equipped with a diverse and promising skill set. Able to effectively self-manage during independent projects, as well as collaborate in a team setting.
 
             </p>
             <h2 className='h2skill'>skills</h2>
             <section className='skillsection'>
-               
+
                 <span><img id="skills" src={js} /></span>
                 <span><img id="skills" src={css} /></span>
                 <span><img id="skills" src={html} /></span>
@@ -51,7 +50,7 @@ export default function About() {
                 <span><img id="skills" src={npm} /></span>
                 <span><img id="skillsmern" src={mern} /></span>
                 <span><img id="skills" src={github} /></span>
-           
+
 
 
 

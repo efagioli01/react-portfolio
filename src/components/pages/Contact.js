@@ -10,14 +10,14 @@ export default function Contact() {
             <div className='contact'>
                 <h1 className='contacthead'>Let's start something great.</h1>
                 <div className="card">
-                    <p>Have a question?
-                        Let's get to know each other. How can I be useful to your service?
-                        Please feel free to reach out to me. I would be delighted to answer all your questions or concerns</p>
+                    <p>From design to execution, each new project presents the opportunity to push limits creatively and technically. 
+                        Your site will be beautiful and highly usable all while being built with clean, semantic code. This results in fast
+                        loading sites, improved accessibility, simplified maintenance and lower costs. 
+
+                    </p>
                     <br></br>
                     <br></br>
-                    <br></br>
-                    <br></br>
-                    <p>University of New Hampshire</p>
+                    <p>Get in touch!</p>
                 </div>
 
                 <div className="card">
