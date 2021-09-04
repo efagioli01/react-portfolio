@@ -28,7 +28,7 @@ function Navbar() {
             <nav className="navbar">
                 <a id="navhome-click" href="/home">Erica <span className="span">Fagioli</span></a>
                 <div className="navbar-container">
-                    <Link to="/home" className="navbar-logo" onClick={closeMobileMenu}>
+                    <Link to="/" className="navbar-logo" onClick={closeMobileMenu}>
 
                     </Link>
                     <div className='menu-icon' onClick={handleClick}>
