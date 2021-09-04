@@ -18,6 +18,7 @@ function App() {
   
   <Router>
     <Navbar />
+    <Route path='/'></Route>
     <Switch>
       
       <Route path='/home'  component={Home} />
