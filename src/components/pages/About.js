@@ -1,6 +1,7 @@
 import React from 'react';
 import '../../About.css'
 import profile from '../../images/profileresize.PNG'
+import me from '../../images/me.jpg'
 import js from '../../images/skillsimg/JS.png'
 import html from '../../images/skillsimg/html5.png'
 import css from '../../images/skillsimg/css3.png'
@@ -29,7 +30,8 @@ export default function About() {
 
             <p className='section'>
 
-                <img id="profile" src={profile} />
+                {/* <img id="profile" src={profile} /> */}
+                <img id ='me' src={me} />
 
 
                 Exceptionally creative and dependable Web Developer with a stellar customer service record and superb work ethic. Deeply knowledgeable in a wide variety of computer languages, user interface, and debugging processes as well as the principles and techniques of website construction and maintenance. Equipped with a diverse and promising skill set. Able to effectively self-manage during independent projects, as well as collaborate in a team setting.
