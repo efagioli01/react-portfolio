@@ -1,6 +1,5 @@
 import React from 'react';
 import '../../About.css'
-import profile from '../../images/profileresize.PNG'
 import me from '../../images/me.jpg'
 import js from '../../images/skillsimg/JS.png'
 import html from '../../images/skillsimg/html5.png'
@@ -20,8 +19,6 @@ import github from '../../images/skillsimg/github.png'
 import { Button } from '../Button'
 
 
-
-
 export default function About() {
     return (
 
@@ -30,7 +27,7 @@ export default function About() {
 
             <p className='section'>
 
-                {/* <img id="profile" src={profile} /> */}
+               
                 <img id ='me' src={me} />
 
 

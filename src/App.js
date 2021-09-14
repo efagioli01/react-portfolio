@@ -3,6 +3,7 @@ import Navbar from './components/Navbar';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import './App.css';
 
+
 import Home from './components/pages/Home'
 import About from './components/pages/About'
 import Contact from './components/pages/Contact'
@@ -23,7 +24,7 @@ function App() {
     {/* <Route path='/'></Route> */}
     <Switch>
       
-      <Route path='/home' component={Home} />
+      {/* <Route path='/home' component={Home} /> */}
       <Route path='/about' component={About} />
       <Route path='/works' component={Works} />
       <Route path='/contact' component={Contact} />
