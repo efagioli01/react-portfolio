@@ -29,8 +29,8 @@ export default function Contact() {
                     <br></br>
                     <p><a href="mailto:efagioli01@gmail.com">efagioli01@gmail.com</a></p>
                     <br></br>
-                    <a href="#"><i className="fa fa-github"></i></a>
-                    <a href="#"><i className="fa fa-linkedin"></i></a>
+                    <a href="https://github.com/efagioli01"><i className="fa fa-github"></i></a>
+                    <a href="https://linkedin.com/in/erica-fagioli"><i className="fa fa-linkedin"></i></a>
                 </div>
             </div>
         </>
