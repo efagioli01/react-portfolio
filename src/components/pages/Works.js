@@ -34,9 +34,9 @@ export default function Works() {
 
                     <div class="main-content">
                         <menu id="buttons-menu">
-                            <button><a className="btns" buttonStyle="btn--outline" buttonSize='btn--large' href="/works" target="_blank">FRONT END</a></button>
+                            {/* <button><a className="btns" buttonStyle="btn--outline" buttonSize='btn--large' href="/works" target="_blank">FRONT END</a></button>
                             <button><a className="btns" buttonStyle="btn--outline" buttonSize='btn--large' href="/works" target="_blank">MERN</a></button>
-                            <button><a className="btns" buttonStyle="btn--outline" buttonSize='btn--large' href="/works" target="_blank">FULL STACK</a></button>
+                            <button><a className="btns" buttonStyle="btn--outline" buttonSize='btn--large' href="/works" target="_blank">FULL STACK</a></button> */}
 
                         </menu>
 
