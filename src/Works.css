@@ -288,6 +288,7 @@ div.title h1 {
 
 }
 
+.work,
 .food,
 .maskeraid,
 .codebr {
@@ -301,12 +302,14 @@ div.title h1 {
   z-index: 3;
 }
 
+.work:hover
 .food:hover,
 .maskeraid:hover,
 .codebr {
   color: black;
 }
 
+.work::before,
 .food::before,
 .maskeraid::before,
 .codebr::before {
@@ -323,6 +326,7 @@ div.title h1 {
   z-index: -1;
 }
 
+.work:hover::before,
 .food:hover::before,
 .maskeraid:hover::before,
 .codebr:hover::before {
@@ -331,7 +335,7 @@ div.title h1 {
 }
 
 .food {
-  background-image: url(../src//images//findmefood.PNG);
+  background-image: url(../src/images/food.png);
 }
 
 .maskeraid{
@@ -340,6 +344,10 @@ div.title h1 {
 
 .codebr{
   background-image: url(../src/images/codebr.png);
+}
+
+.work{
+  background-image: url(../src/images/workday.PNG);
 }
 
 

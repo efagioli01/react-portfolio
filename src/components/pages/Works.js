@@ -20,11 +20,11 @@ import all3 from '../../images/skillsimg/all3.png'
 
 
 
+
 export default function Works() {
     return (
 
         <>
-
 
             <section id="projects" className='hideSection'>
                 <div class="section-container">
@@ -40,35 +40,6 @@ export default function Works() {
 
                         </menu>
 
-                        
-                            <div class="row frontend-projects">
-                                <div class="dotted col-md-6">
-
-                                    <div class="project-item food"></div>
-                                </div>
-
-                                <div class="col-md-6">
-                                    <h4 id="project-name">Find Me Food</h4>
-
-                                    <p className='project-info'>Find Me Food application pulls a user's location from their IP address and feeds it into Google Maps to populate a list of nearby restaurants.</p>
-
-
-                                    <div class="skills">
-                                        <h2>Technologies</h2>
-                                        <span><img id="skills" src={js} /></span>
-                                        <span><img id="skills" src={css} /></span>
-                                        <span><img id="skills" src={html} /></span>
-                                    </div>
-
-                                    <div class="btn-links">
-                                        <a id="demo" class="btn btn-success" href="https://unh-bootcamp-projects.github.io/project-1-group-c/" target="_blank">Demo</a>
-                                        <a id="github" class="btn btn-info" href="https://github.com/efagioli01/Find-Me-Food-Application"
-                                            target="_blank">GitHub</a>
-                                    </div>
-
-                                </div>
-                            </div>
-                        
 
                         <div class="row mern-projects">
 
@@ -88,9 +59,6 @@ export default function Works() {
                                     <span><img id="skills" src={mongo} /></span>
                                     <span><img id="all3" src={all3} /></span>
 
-
-
-
                                 </div>
 
                                 <div class="btn-links">
@@ -103,42 +71,104 @@ export default function Works() {
 
                         </div>
 
-                        {/* <div class="row mern-projects">
-                            <div class="dotted col-md-6">
-                                <h4 id="project-name">Virtual GBooks</h4>
-                                <p className='project-name'>jndhuhfdhfhdfhl</p>
+                        <div class="row mern-projects">
 
+                            <div class="dotted col-md-6">
+                                <div class="project-item maskeraid"></div>
+                            </div>
+
+                            <div class="col-md-6">
+                                <h4 id="project-name">Maskeraid</h4>
+
+                                <p className='project-name'>The Face Mask Info app is an application that allows the user to add mask status updates to businesses in their area and save the information to a database</p>
 
                                 <div class="skills">
-
-                                    <span><img id="skills" src={css} /></span>
-                                    <span><img id="skills" src={html} /></span>
+                                    <span><img id="skills" src={js} /></span>
                                     <span><img id="skills" src={jquery} /></span>
                                     <span><img id="skills" src={node} /></span>
                                     <span><img id="skills" src={express} /></span>
                                     <span><img id="skills" src={sql} /></span>
-                                    <span><img id="skills" src={mongo} /></span>
-                                    <span><img id="skills" src={react} /></span>
                                     <span><img id="skills" src={npm} /></span>
-                                    <span><img id="skillsmern" src={mern} /></span>
-                                    <span><img id="skills" src={github} /></span>
+
+
 
                                 </div>
 
                                 <div class="btn-links">
-                                    <a id="demo" class="btn btn-success" href="https://virtualgbooks.herokuapp.com/" target="_blank">Demo</a>
-                                    <a id="github" class="btn btn-info" href="https://github.com/kalmontee/windex" target="_blank">GitHub</a>
+                                    <a id="demo" class="btn btn-success" href="https://aqueous-harbor-96616.herokuapp.com/" target="_blank">Demo</a>
+                                    <a id="github" class="btn btn-info" href="https://github.com/efagioli01/Masker-Aid-Face-Mask-Application" target="_blank">GitHub</a>
+                                </div>
+
+
+                            </div>
+
+                        </div>
+
+
+                        <div class="row frontend-projects">
+                            <div class="dotted col-md-6">
+
+                                <div class="project-item food"></div>
+                            </div>
+
+                            <div class="col-md-6">
+                                <h4 id="project-name">Find Me Food</h4>
+
+                                <p className='project-info'>Find Me Food application pulls a user's location from their IP address and feeds it into Google Maps to populate a list of nearby restaurants.</p>
+
+
+                                <div class="skills">
+                                    <h2>Technologies</h2>
+                                    <span><img id="skills" src={js} /></span>
+                                    <span><img id="skills" src={css} /></span>
+                                    <span><img id="skills" src={html} /></span>
+                                </div>
+
+                                <div class="btn-links">
+                                    <a id="demo" class="btn btn-success" href="https://unh-bootcamp-projects.github.io/project-1-group-c/" target="_blank">Demo</a>
+                                    <a id="github" class="btn btn-info" href="https://github.com/efagioli01/Find-Me-Food-Application"
+                                        target="_blank">GitHub</a>
                                 </div>
 
                             </div>
-                            <div class="col-md-6">
+                        </div>
 
-                                <div class="project-item maskeraid"></div>
+                        <div class="row frontend-projects">
+                            <div class="dotted col-md-6">
+
+                                <div class="project-item work"></div>
                             </div>
-                        </div> */}
+
+                            <div class="col-md-6">
+                                <h4 id="project-name">Workday Scheduler</h4>
+
+                                <p className='project-info'>A simple calendar application that allows a user to save events for each hour of the day.</p>
 
 
-                        <div class="row fullStack-projects">
+                                <div class="skills">
+                                    <h2>Technologies</h2>
+                                    <span><img id="skills" src={js} /></span>
+                                    <span><img id="skills" src={css} /></span>
+                                    <span><img id="skills" src={html} /></span>
+                                </div>
+
+                                <div class="btn-links">
+                                    <a id="demo" class="btn btn-success" href="https://efagioli01.github.io/Work-Day-Scheduler-Code-Refactor/" target="_blank">Demo</a>
+                                    <a id="github" class="btn btn-info" href="https://github.com/efagioli01/Work-Day-Scheduler-Code-Refactor/deployments/activity_log?environment=github-pages"
+                                        target="_blank">GitHub</a>
+                                </div>
+
+                            </div>
+                        </div>
+
+
+
+
+
+
+
+
+                        {/* <div class="row fullStack-projects">
                             <div class="project-item maskeraid"></div>
                             <div class="dotted col-md-6">
                                 <h4 id="project-name">Masker Aid</h4>
@@ -167,7 +197,7 @@ export default function Works() {
 
 
 
-                        </div>
+                        </div> */}
 
 
 
